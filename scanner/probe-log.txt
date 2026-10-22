@@ -1,0 +1,62 @@
+--- probă 0951:1723, cerere: 21 ff 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (2026-10-15T21:13:29.255Z) ---
+[0] page 0xff90 usage 0x0303  write OK
+[0] page 0xff90 usage 0x0303  feature report eșuat: could not send feature report to device: HidD_SetFeature: (0x00000001) Incorrect function.
+[1] page 0xff00 usage 0x0001  write eșuat: Cannot write to hid device: WriteFile: (0x00000001) Incorrect function.
+[1] page 0xff00 usage 0x0001  feature report eșuat: could not send feature report to device: HidD_SetFeature: (0x00000001) Incorrect function.
+[2] page 0xffc0 usage 0x0001  write eșuat: Cannot write to hid device: WriteFile: (0x00000001) Incorrect function.
+[2] page 0xffc0 usage 0x0001  feature report eșuat: could not send feature report to device: HidD_SetFeature: (0x00000001) Incorrect function.
+--- gata ---
+--- probă 0951:1723, cerere: 21 ff 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (2026-10-15T21:14:45.436Z) ---
+[0] page 0xff90 usage 0x0303  deschis
+[1] page 0xff00 usage 0x0001  deschis
+[2] page 0xffc0 usage 0x0001  deschis
+[0] page 0xff90 usage 0x0303  cerere trimisă (write)
+Ascult 8 secunde... Mișcă rotița de volum sau apasă mute pe cască.
+--- gata ---
+--- probă 0951:1723, cerere: 21 ff 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (2026-10-15T21:14:57.633Z) ---
+[0] page 0xff90 usage 0x0303  deschis
+[1] page 0xff00 usage 0x0001  deschis
+[2] page 0xffc0 usage 0x0001  deschis
+[0] page 0xff90 usage 0x0303  cerere trimisă (write)
+Ascult 8 secunde... Mișcă rotița de volum sau apasă mute pe cască.
+--- gata ---
+--- probă 0951:1723, cerere: 21 ff 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (2026-10-15T21:15:12.421Z) ---
+[0] page 0xff90 usage 0x0303  deschis
+[1] page 0xff00 usage 0x0001  deschis
+[2] page 0xffc0 usage 0x0001  deschis
+[0] page 0xff90 usage 0x0303  cerere trimisă (write)
+Ascult 8 secunde... Mișcă rotița de volum sau apasă mute pe cască.
+21:15:12.765 [0] page 0xff90 usage 0x0303  <- (20): 21 ff 05 0e 75 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+21:15:15.128 [2] page 0xffc0 usage 0x0001  <- (2): 65 04
+21:15:15.769 [2] page 0xffc0 usage 0x0001  <- (2): 65 00
+--- gata ---
+--- probă 0951:1723, cerere: 21 ff 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 (2026-10-15T21:15:24.063Z) ---
+[0] page 0xff90 usage 0x0303  deschis
+[1] page 0xff00 usage 0x0001  deschis
+[2] page 0xffc0 usage 0x0001  deschis
+[0] page 0xff90 usage 0x0303  cerere trimisă (write)
+Ascult 8 secunde... Mișcă rotița de volum sau apasă mute pe cască.
+21:15:24.412 [0] page 0xff90 usage 0x0303  <- (20): 21 ff 05 0e a5 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+21:15:27.386 [2] page 0xffc0 usage 0x0001  <- (2): 65 04
+21:15:28.295 [2] page 0xffc0 usage 0x0001  <- (2): 65 00
+--- gata ---
+--- probă 3554:fa09, cerere: 13 07 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1b (2026-10-15T21:28:25.011Z) ---
+[0] page 0xff04 usage 0x0002  deschis
+[1] page 0xff02 usage 0x0002  deschis
+[1] page 0xff02 usage 0x0002  cerere trimisă (write)
+Ascult 5 secunde... Mișcă rotița de volum sau apasă mute pe cască.
+21:28:25.309 [1] page 0xff02 usage 0x0002  <- (20): 13 07 01 00 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 1d
+--- gata ---
+--- probă 3554:fa09, cerere: 13 07 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1b (2026-10-15T21:28:41.473Z) ---
+[0] page 0xff04 usage 0x0002  deschis
+[1] page 0xff02 usage 0x0002  deschis
+[1] page 0xff02 usage 0x0002  cerere trimisă (write)
+Ascult 5 secunde... Mișcă rotița de volum sau apasă mute pe cască.
+21:28:41.772 [1] page 0xff02 usage 0x0002  <- (20): 13 07 01 00 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 1d
+--- gata ---
+--- probă 3554:fa09, cerere: 13 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1a (2026-10-15T21:29:02.056Z) ---
+[0] page 0xff04 usage 0x0002  deschis
+[1] page 0xff02 usage 0x0002  deschis
+[1] page 0xff02 usage 0x0002  cerere trimisă (write)
+Ascult 5 secunde... Mișcă rotița de volum sau apasă mute pe cască.
+--- gata ---

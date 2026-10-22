@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baterii periferice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Baterii</h1>
+    <p id="summary">Se citesc perifericele…</p>
+  </header>
+  <main id="grid"></main>
+  <details id="discover">
+    <summary>Periferice necunoscute <span id="discoverCount"></span></summary>
+    <div class="discover-body">
+      <p class="muted">Ascultă ce trimit perifericele necunoscute. Merge doar pentru cele care își trimit singure nivelul bateriei. Cât timp ascultă, pornește și oprește perifericul sau mișcă-l.</p>
+      <div class="discover-controls">
+        <label>Baterie cunoscută (%) <input id="hint" type="number" min="1" max="100" placeholder="ex. 89"></label>
+        <button id="listen" type="button">Ascultă 20 s</button>
+        <button id="copyDiscovery" type="button" hidden>Copiază rezultatul</button>
+      </div>
+      <div id="discoverOut"></div>
+    </div>
+  </details>  
+  <footer>
+    <label class="toggle"><input type="checkbox" id="demo"> Date demo</label>
+    <label class="toggle"><input type="checkbox" id="autostart"> Pornește cu sistemul</label>
+    <label class="toggle">Citește la fiecare
+      <select id="interval">
+        <option value="10">10 secunde</option>
+        <option value="30">30 de secunde</option>
+        <option value="60">1 minut</option>
+        <option value="120">2 minute</option>
+        <option value="300">5 minute</option>
+      </select>
+    </label>
+    <button id="test" type="button">Testează notificarea</button>
+  </footer>
+  <script src="renderer.js"></script>
+</body>
+</html>
